@@ -1,0 +1,5 @@
+  File "/home/havlian/Documents/Mapovac_code/install/Mapovac_sw/lib/python3.12/site-packages/Mapovac_sw/move.py", line 71
+    self.cosinus = (math.sqrt(pow(self.vector[0], 2) - self.vector[0]*pow(math.sin(self.vector[1], 2)))
+                   ^
+SyntaxError: '(' was never closed
+
