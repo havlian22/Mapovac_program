@@ -1,0 +1,3 @@
+[console_scripts]
+Comand_listener = Mapovac_sw.Comand_listener:main
+move = Mapovac_sw.move:main

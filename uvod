@@ -1,3 +1,23 @@
 
 
 Repozitar pro program maturitniho projektu Mapovac
+
+
+
+def detekce(self):       
+        if(self.buttonB.is_pressed):
+            self.vys[self.count%20] = 75 / (self.time_count*Vzorkovaci_perioda+0.00000000001)
+            self.count += 1
+            self.time_count = 0
+        else:
+            self.time_count += 1
+
+        if(self.count >= 20):
+            for i in range(20):
+                self.pravy_vys += self.vys[i]
+
+            self.pravy_vys = self.pravy_vys/75
+            self.count = 0
+
+
+        self.get_logger().info(f"Aktualni RPM: {self.pravy_vys}")

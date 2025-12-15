@@ -1,0 +1,6 @@
+source;share/Mapovac_sw/hook/pythonpath.ps1
+source;share/Mapovac_sw/hook/pythonpath.dsv
+source;share/Mapovac_sw/hook/pythonpath.sh
+source;share/Mapovac_sw/hook/ament_prefix_path.ps1
+source;share/Mapovac_sw/hook/ament_prefix_path.dsv
+source;share/Mapovac_sw/hook/ament_prefix_path.sh

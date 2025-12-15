@@ -1,0 +1,25 @@
+[1.578s] Invoking command in '/home/havlian/Documents/Mapovac_code/Mapovac_sw': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/havlian/Documents/Mapovac_code/build/Mapovac_sw/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/havlian/Documents/Mapovac_code/install/Mapovac_sw/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/Mapovac_sw build --build-base /home/havlian/Documents/Mapovac_code/build/Mapovac_sw/build install --record /home/havlian/Documents/Mapovac_code/build/Mapovac_sw/install.log --single-version-externally-managed install_data
+[2.042s] running egg_info
+[2.071s] writing ../build/Mapovac_sw/Mapovac_sw.egg-info/PKG-INFO
+[2.072s] writing dependency_links to ../build/Mapovac_sw/Mapovac_sw.egg-info/dependency_links.txt
+[2.073s] writing entry points to ../build/Mapovac_sw/Mapovac_sw.egg-info/entry_points.txt
+[2.073s] writing requirements to ../build/Mapovac_sw/Mapovac_sw.egg-info/requires.txt
+[2.074s] writing top-level names to ../build/Mapovac_sw/Mapovac_sw.egg-info/top_level.txt
+[2.141s] reading manifest file '../build/Mapovac_sw/Mapovac_sw.egg-info/SOURCES.txt'
+[2.142s] writing manifest file '../build/Mapovac_sw/Mapovac_sw.egg-info/SOURCES.txt'
+[2.184s] running build
+[2.184s] running build_py
+[2.184s] copying Mapovac_sw/Comand_listener.py -> /home/havlian/Documents/Mapovac_code/build/Mapovac_sw/build/lib/Mapovac_sw
+[2.185s] running install
+[2.196s] running install_lib
+[2.230s] copying /home/havlian/Documents/Mapovac_code/build/Mapovac_sw/build/lib/Mapovac_sw/Comand_listener.py -> /home/havlian/Documents/Mapovac_code/install/Mapovac_sw/lib/python3.12/site-packages/Mapovac_sw
+[2.231s] byte-compiling /home/havlian/Documents/Mapovac_code/install/Mapovac_sw/lib/python3.12/site-packages/Mapovac_sw/Comand_listener.py to Comand_listener.cpython-312.pyc
+[2.232s] running install_data
+[2.233s] running install_egg_info
+[2.267s] removing '/home/havlian/Documents/Mapovac_code/install/Mapovac_sw/lib/python3.12/site-packages/Mapovac_sw-0.0.0-py3.12.egg-info' (and everything under it)
+[2.267s] Copying ../build/Mapovac_sw/Mapovac_sw.egg-info to /home/havlian/Documents/Mapovac_code/install/Mapovac_sw/lib/python3.12/site-packages/Mapovac_sw-0.0.0-py3.12.egg-info
+[2.269s] running install_scripts
+[2.499s] Installing Comand_listener script to /home/havlian/Documents/Mapovac_code/install/Mapovac_sw/lib/Mapovac_sw
+[2.500s] Installing move script to /home/havlian/Documents/Mapovac_code/install/Mapovac_sw/lib/Mapovac_sw
+[2.502s] writing list of installed files to '/home/havlian/Documents/Mapovac_code/build/Mapovac_sw/install.log'
+[2.636s] Invoked command in '/home/havlian/Documents/Mapovac_code/Mapovac_sw' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/havlian/Documents/Mapovac_code/build/Mapovac_sw/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/havlian/Documents/Mapovac_code/install/Mapovac_sw/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/Mapovac_sw build --build-base /home/havlian/Documents/Mapovac_code/build/Mapovac_sw/build install --record /home/havlian/Documents/Mapovac_code/build/Mapovac_sw/install.log --single-version-externally-managed install_data
